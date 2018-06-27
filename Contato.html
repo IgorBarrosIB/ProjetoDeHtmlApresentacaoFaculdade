@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<!--Fontes-->
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"> 
+	<link rel="shortcut icon" href="Imagens/Logos/LogoMustang.png" >
+	<title>Mustang</title>
+	<!--Codifição da página web -->
+	<meta charset="utf-8">
+	<!--Bootstrap-->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--Css-->
+	<link rel="stylesheet" type="text/css" href="Estilo.css">
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+	<script>
+		function funcao1(){
+		alert("Mensagem Enviada.");
+		}
+	</script>
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-static-top Menu"><!-- Menu-->
+		<div class="container"><!--Esquerdo-->	
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra-navegacao">
+					<span class="sr-only">Alterna Menu</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#" class="navbar-brand"><!--<img src="Imagens/Logos/LogoMustang.png">--></a>
+			</div>	
+			<div id="barra-navegacao" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right"><!--Direito-->
+					<li><a href="Index.html">Index</a></li>
+					<li><a href="Museu.html">Museu</a></li>
+					<li><a href="#">Contato</a></li>
+					<li><a href="Sobre.html">Sobre</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="">	
+	</div>
+	<div id="Contato">
+		<div class="Formulario">
+			<form action="" method="post"> 
+				<p style="font-size:40px;">Entre em contato:</p>
+				<br/>
+				<p for="Email">Email:<br/>
+					<input type="text" name="Email"></p><br/>
+				<p for="Nome">Nome:<br/>
+					<input type="text" name="Nome"></p><br/>
+				<p for="Telefone">Telefone:<br/>
+					<input type="text" name="Telefone"></p>
+				<br/>
+				<input type="submit" name="Enviar" value="Enviar" onclick="alert('Mensagem Enviada')">
+			</form>
+		</div>
+	</div>
+	<div class="">
+	</div>
+	<div class="rodapé">
+		<div class="navbar navbar-inverse navbar-static-top ">
+			<ul class="nav navbar-nav navbar-right"><!--Direito-->
+				<li><a href="https://www.ford.com.br/performance/mustang/">Ford Mustang</a></li>
+			</ul>
+		</div>
+		<div class="navbar navbar-dark bg-lighter ">
+			<div class="">	
+			</div>
+			<div id="barra-rodape">
+				<div class="table-responsive" >
+					<table>
+						<tr>
+							<td rowspan="2" class="RedeSocial"><p>Redes Sociais</p></td>
+							<td><a href="https://www.facebook.com/FordBrasil?hc_location=stream"><img src="Imagens/Logos/Facebook.png" class="img-responsive" alt="Facebook"></a></td>
+							<td><a href="https://www.instagram.com/fordbrasil/"><img src="Imagens/Logos/Instagram.png" class="img-responsive" alt="Instagram"></a></td>
+							<td><a href="https://open.spotify.com/user/ford_brasil"><img src="Imagens/Logos/Spotify.png" class="img-responsive" alt="Spotify"></a></td>
+							<td><a href="https://www.youtube.com/user/fordbrasil"><img src="Imagens/Logos/Youtube.png" class="img-responsive" alt="Youtube"></a></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
